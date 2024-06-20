@@ -1,11 +1,13 @@
 package testcases;
 
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
 import utilities.Base;
+import utilities.ExcelDataReader;
 import utilities.ReadProperties;
 import utilities.Functions;
 import pages.HomePage;
@@ -19,6 +21,10 @@ public class HomePageTest extends Base {
 
 	@Test
 	public void testHomePageURL() {
+
+		if (ExcelDataReader.getExecutionRequired(Thread.currentThread().getStackTrace()[1].getMethodName()))
+
+			throw new SkipException("Skipping this test case as per condition.");
 
 		getDriver().get(ReadProperties.getConfig("applicationURL"));
 
@@ -45,16 +51,20 @@ public class HomePageTest extends Base {
 		extentTest().log(Status.INFO, "testHomePageURL: End Test");
 
 	}
-	
+
 	@Test
 	public void testTopOffer() {
+
+		if (ExcelDataReader.getExecutionRequired(Thread.currentThread().getStackTrace()[1].getMethodName()))
+
+			throw new SkipException("Skipping this test case as per condition.");
 
 		getDriver().get(ReadProperties.getConfig("applicationURL"));
 
 		extentTest().log(Status.INFO, "testTopOffer: Begin Test");
 
 		homepage = new HomePage(getDriver());
-		
+
 		try {
 
 			homepage.gotoTopOffer();
@@ -70,7 +80,7 @@ public class HomePageTest extends Base {
 		}
 
 		extentTest().log(Status.INFO, "testTopOffer: End Test");
-		
+
 	}
 
 }

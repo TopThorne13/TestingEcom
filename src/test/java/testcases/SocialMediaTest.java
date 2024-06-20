@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -11,32 +12,37 @@ import pages.YoutubePage;
 import utilities.Functions;
 import utilities.ReadProperties;
 import utilities.Base;
+import utilities.ExcelDataReader;
 
 public class SocialMediaTest extends Base {
-	
+
 	HomePage homepage;
-	
+
 	@Test(priority = 1, groups = "Socials")
 	public void testHomePageSocialsFacebook() {
+
+		if (ExcelDataReader.getExecutionRequired(Thread.currentThread().getStackTrace()[1].getMethodName()))
+
+			throw new SkipException("Skipping this test case as per condition.");
 
 		getDriver().get(ReadProperties.getConfig("applicationURL"));
 
 		extentTest().log(Status.INFO, "testHomePageSocialsFB: Begin Test");
 
 		homepage = new HomePage(getDriver());
-		
+
 		FacebookPage facebookpage;
 
 		try {
-			
+
 			homepage.clickFacebookButton();
-			
+
 			facebookpage = new FacebookPage(getDriver());
-			
+
 			facebookpage.closePrompt();
-			
+
 			facebookpage.titleVisible();
-			
+
 			Functions.screenshotFullPage(getDriver(), pathSS + "testHomePageSocialsFB.png");
 
 			extentTestSS(pathSS + "testHomePageSocialsFB.png", "Facebook Page");
@@ -52,24 +58,28 @@ public class SocialMediaTest extends Base {
 		extentTest().log(Status.INFO, "testHomePageSocialsFB: End Test");
 
 	}
-	
+
 	@Test(priority = 2, groups = "Socials")
 	public void testHomePageSocialsTwitter() {
+
+		if (ExcelDataReader.getExecutionRequired(Thread.currentThread().getStackTrace()[1].getMethodName()))
+
+			throw new SkipException("Skipping this test case as per condition.");
 
 		getDriver().get(ReadProperties.getConfig("applicationURL"));
 
 		extentTest().log(Status.INFO, "testHomePageSocialsTwitter: Begin Test");
 
 		homepage = new HomePage(getDriver());
-		
+
 		TwitterPage twitterpage;
 
 		try {
-			
+
 			homepage.clickTwitterButton();
-			
+
 			twitterpage = new TwitterPage(getDriver());
-			
+
 			twitterpage.firstTweetSS();
 
 			extentTestSS(pathSS + "testHomePageSocialsTwitter.png", "Twitter Page");
@@ -85,26 +95,30 @@ public class SocialMediaTest extends Base {
 		extentTest().log(Status.INFO, "testHomePageSocialsTwitter: End Test");
 
 	}
-	
+
 	@Test(priority = 3, groups = "Socials")
 	public void testHomePageSocialsYouTube() {
+
+		if (ExcelDataReader.getExecutionRequired(Thread.currentThread().getStackTrace()[1].getMethodName()))
+
+			throw new SkipException("Skipping this test case as per condition.");
 
 		getDriver().get(ReadProperties.getConfig("applicationURL"));
 
 		extentTest().log(Status.INFO, "testHomePageSocialsYT: Begin Test");
 
 		homepage = new HomePage(getDriver());
-		
+
 		YoutubePage youtubepage;
 
 		try {
-			
+
 			homepage.clickYouTubeButton();
-			
+
 			youtubepage = new YoutubePage(getDriver());
-			
+
 			youtubepage.openVideosTab();
-			
+
 			youtubepage.takeVideosSS();
 
 			extentTestSS(pathSS + "testHomePageSocialsYT.png", "Twitter Page");

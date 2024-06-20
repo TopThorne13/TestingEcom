@@ -44,7 +44,7 @@ public class Functions {
 
 		FileHandler.copy(source, new File(fullPath));
 	}
-
+	
 	public static void screenshotFullPage(WebDriver driver, String fullPath) throws IOException {
 
 		File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

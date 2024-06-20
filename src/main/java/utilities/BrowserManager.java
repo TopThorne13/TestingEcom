@@ -22,7 +22,7 @@ public class BrowserManager {
 			WebDriverManager.chromedriver().setup();
 
 			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("-headless");
+			chromeOptions.addArguments("-headed");
 
 			driver = new ChromeDriver(chromeOptions);
 

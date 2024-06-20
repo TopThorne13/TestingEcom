@@ -1,73 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-20T02:26:27Z" name="Default suite" finished-at="2024-06-20T02:27:15Z" duration-ms="47439">
+  <suite started-at="2024-06-20T05:24:07Z" name="Default suite" finished-at="2024-06-20T05:24:47Z" duration-ms="39987">
     <groups>
+      <group name="Fail">
+        <method signature="PincodeTest.testPincodeFail()[pri:2, instance:testcases.PincodeTest@5884a914]" name="testPincodeFail" class="testcases.PincodeTest"/>
+      </group> <!-- Fail -->
     </groups>
-    <test started-at="2024-06-20T02:26:27Z" name="Default test" finished-at="2024-06-20T02:27:15Z" duration-ms="47439">
-      <class name="testcases.FilterTest">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:testcases.FilterTest@30f842ca]" started-at="2024-06-20T07:56:27Z" name="startReport" finished-at="2024-06-20T07:56:27Z" duration-ms="246" status="PASS">
+    <test started-at="2024-06-20T05:24:07Z" name="Default test" finished-at="2024-06-20T05:24:47Z" duration-ms="39987">
+      <class name="testcases.PincodeTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcases.PincodeTest@5884a914]" started-at="2024-06-20T10:54:07Z" name="startReport" finished-at="2024-06-20T10:54:08Z" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.FilterTest@30f842ca]" started-at="2024-06-20T07:56:27Z" name="Setup" finished-at="2024-06-20T07:56:29Z" duration-ms="2097" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.PincodeTest@5884a914]" started-at="2024-06-20T10:54:08Z" name="Setup" finished-at="2024-06-20T10:54:09Z" duration-ms="1678" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.FilterTest.testFilterMax() throws java.io.IOException]]>
+                <![CDATA[public void testcases.PincodeTest.testPincodeFail()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="testFilterMax()[pri:1, instance:testcases.FilterTest@30f842ca]" started-at="2024-06-20T07:56:29Z" name="testFilterMax" finished-at="2024-06-20T07:57:06Z" duration-ms="36576" status="PASS">
+        <test-method signature="testPincodeFail()[pri:2, instance:testcases.PincodeTest@5884a914]" started-at="2024-06-20T10:54:09Z" name="testPincodeFail" finished-at="2024-06-20T10:54:47Z" duration-ms="37430" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFilterMax -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.FilterTest@30f842ca]" started-at="2024-06-20T07:57:06Z" name="getResult" finished-at="2024-06-20T07:57:06Z" duration-ms="247" status="PASS">
+        </test-method> <!-- testPincodeFail -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.PincodeTest@5884a914]" started-at="2024-06-20T10:54:47Z" name="getResult" finished-at="2024-06-20T10:54:47Z" duration-ms="288" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testFilterMax status=SUCCESS method=FilterTest.testFilterMax()[pri:1, instance:testcases.FilterTest@30f842ca] output={null}]]]>
+                <![CDATA[[TestResult name=testPincodeFail status=SUCCESS method=PincodeTest.testPincodeFail()[pri:2, instance:testcases.PincodeTest@5884a914] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.FilterTest@30f842ca]" started-at="2024-06-20T07:57:06Z" name="Setup" finished-at="2024-06-20T07:57:07Z" duration-ms="1037" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.FilterTest.testFilterMin() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="testFilterMin()[pri:2, instance:testcases.FilterTest@30f842ca]" started-at="2024-06-20T07:57:07Z" name="testFilterMin" finished-at="2024-06-20T07:57:14Z" duration-ms="6622" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFilterMin -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.FilterTest@30f842ca]" started-at="2024-06-20T07:57:14Z" name="getResult" finished-at="2024-06-20T07:57:14Z" duration-ms="252" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testFilterMin status=SUCCESS method=FilterTest.testFilterMin()[pri:2, instance:testcases.FilterTest@30f842ca] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FilterTest@30f842ca]" started-at="2024-06-20T07:57:14Z" name="tearDown" finished-at="2024-06-20T07:57:15Z" duration-ms="346" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.PincodeTest@5884a914]" started-at="2024-06-20T10:54:47Z" name="tearDown" finished-at="2024-06-20T10:54:47Z" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.FilterTest -->
+      </class> <!-- testcases.PincodeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

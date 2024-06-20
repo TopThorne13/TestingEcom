@@ -2,6 +2,7 @@ package testcases;
 
 import java.io.IOException;
 
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -9,6 +10,7 @@ import com.aventstack.extentreports.Status;
 import pages.HomePage;
 import pages.SearchPage;
 import utilities.Base;
+import utilities.ExcelDataReader;
 import utilities.ReadProperties;
 
 public class FilterTest extends Base {
@@ -20,7 +22,11 @@ public class FilterTest extends Base {
 	@Test(priority = 2, groups = "Filter")
 	public void testFilterMin() throws IOException {
 
-		String firstProduct = "Book"; // replace
+		if (ExcelDataReader.getExecutionRequired(Thread.currentThread().getStackTrace()[1].getMethodName()))
+
+			throw new SkipException("Skipping this test case as per condition.");
+		
+		String firstProduct = ExcelDataReader.getData(Thread.currentThread().getStackTrace()[1].getMethodName(), "input");
 
 		getDriver().get(ReadProperties.getConfig("applicationURL"));
 
@@ -28,7 +34,7 @@ public class FilterTest extends Base {
 
 		homepage = new HomePage(getDriver());
 
-		homepage.enterSearchQuery("Book"); // Replace
+		homepage.enterSearchQuery(firstProduct);
 
 		searchpage = new SearchPage(getDriver());
 
@@ -50,11 +56,15 @@ public class FilterTest extends Base {
 		extentTest().log(Status.INFO, "testFilterMin: End Test");
 
 	}
-	
+
 	@Test(priority = 1, groups = "Filter")
 	public void testFilterMax() throws IOException {
 
-		String firstProduct = "Pen"; // replace
+		if (ExcelDataReader.getExecutionRequired(Thread.currentThread().getStackTrace()[1].getMethodName()))
+
+			throw new SkipException("Skipping this test case as per condition.");
+
+		String firstProduct = ExcelDataReader.getData(Thread.currentThread().getStackTrace()[1].getMethodName(), "input");
 
 		getDriver().get(ReadProperties.getConfig("applicationURL"));
 
@@ -62,7 +72,7 @@ public class FilterTest extends Base {
 
 		homepage = new HomePage(getDriver());
 
-		homepage.enterSearchQuery("Book"); // Replace
+		homepage.enterSearchQuery(firstProduct);
 
 		searchpage = new SearchPage(getDriver());
 
@@ -84,5 +94,5 @@ public class FilterTest extends Base {
 		extentTest().log(Status.INFO, "testFilterMax: End Test");
 
 	}
-	
+
 }

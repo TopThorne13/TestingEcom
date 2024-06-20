@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -8,6 +9,7 @@ import pages.HomePage;
 import pages.LoginPage;
 import utilities.ReadProperties;
 import utilities.Base;
+import utilities.ExcelDataReader;
 
 public class PhoneNumberTest extends Base {
 
@@ -15,6 +17,10 @@ public class PhoneNumberTest extends Base {
 
 	@Test(priority = 1, groups = "Pass")
 	public void testPhoneNumberPass() {
+
+		if (ExcelDataReader.getExecutionRequired(Thread.currentThread().getStackTrace()[1].getMethodName()))
+
+			throw new SkipException("Skipping this test case as per condition.");
 
 		getDriver().get(ReadProperties.getConfig("applicationURL"));
 
@@ -28,7 +34,7 @@ public class PhoneNumberTest extends Base {
 
 		try {
 
-			loginpage.fillPhoneNumber("9839932328"); // replace
+			loginpage.fillPhoneNumber(ExcelDataReader.getData(Thread.currentThread().getStackTrace()[1].getMethodName(), "input"));
 
 		} catch (Exception e) {
 
@@ -43,6 +49,10 @@ public class PhoneNumberTest extends Base {
 	@Test(priority = 2, groups = "Fail")
 	public void testPhoneNumberFail() {
 
+		if (ExcelDataReader.getExecutionRequired(Thread.currentThread().getStackTrace()[1].getMethodName()))
+
+			throw new SkipException("Skipping this test case as per condition.");
+
 		getDriver().get(ReadProperties.getConfig("applicationURL"));
 
 		extentTest().log(Status.INFO, "testPhoneNumberFail: Begin Test");
@@ -55,7 +65,7 @@ public class PhoneNumberTest extends Base {
 
 		try {
 
-			loginpage.fillPhoneNumber("1234567890"); // replace
+			loginpage.fillPhoneNumber(ExcelDataReader.getData(Thread.currentThread().getStackTrace()[1].getMethodName(), "input"));
 
 		} catch (Exception e) {
 

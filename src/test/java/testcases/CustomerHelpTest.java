@@ -1,6 +1,7 @@
 package testcases;
 
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -10,6 +11,7 @@ import pages.HomePage;
 import utilities.Functions;
 import utilities.ReadProperties;
 import utilities.Base;
+import utilities.ExcelDataReader;
 
 public class CustomerHelpTest extends Base {
 
@@ -17,6 +19,10 @@ public class CustomerHelpTest extends Base {
 
 	@Test(priority = 1, groups = "Pass")
 	public void testCutomerCare() {
+
+		if (ExcelDataReader.getExecutionRequired(Thread.currentThread().getStackTrace()[1].getMethodName()))
+
+			throw new SkipException("Skipping this test case as per condition.");
 
 		getDriver().get(ReadProperties.getConfig("applicationURL"));
 
@@ -27,7 +33,7 @@ public class CustomerHelpTest extends Base {
 		try {
 
 			CustomerCarePage customercarepage = new CustomerCarePage(getDriver());
-			
+
 			customercarepage.pageVisible();
 
 			extentTestSS(pathSS + "Customer_Care_Page.png", "Homepage");
