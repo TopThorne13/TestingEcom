@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="30" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-20T05:17:47 IST" name="Surefire suite" finished-at="2024-06-20T05:22:09 IST" duration-ms="262329">
+    <groups>
+    </groups>
+    <test started-at="2024-06-20T05:17:47 IST" name="Surefire test" finished-at="2024-06-20T05:22:09 IST" duration-ms="262329">
+      <class name="testcases.CompareProductsTest">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.CompareProductsTest@6b419da]" started-at="2024-06-20T05:17:51 IST" name="Setup" finished-at="2024-06-20T05:17:52 IST" duration-ms="851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.CompareProductsTest.testProductComparison() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testProductComparison()[pri:2, instance:testcases.CompareProductsTest@6b419da]" started-at="2024-06-20T05:17:52 IST" name="testProductComparison" finished-at="2024-06-20T05:17:58 IST" duration-ms="6046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductComparison -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.CompareProductsTest@6b419da]" started-at="2024-06-20T05:17:58 IST" name="getResult" finished-at="2024-06-20T05:17:58 IST" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductComparison status=SUCCESS method=CompareProductsTest.testProductComparison()[pri:2, instance:testcases.CompareProductsTest@6b419da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.CompareProductsTest -->
+      <class name="selective.NewSampleTest">
+        <test-method signature="f()[pri:0, instance:selective.NewSampleTest@7920ba90]" started-at="2024-06-20T05:17:47 IST" name="f" finished-at="2024-06-20T05:17:47 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- selective.NewSampleTest -->
+      <class name="testcases.HomePageTest">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.HomePageTest@3b2da18f]" started-at="2024-06-20T05:17:58 IST" name="Setup" finished-at="2024-06-20T05:17:59 IST" duration-ms="1036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.testHomePageURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testHomePageURL()[pri:0, instance:testcases.HomePageTest@3b2da18f]" started-at="2024-06-20T05:17:59 IST" name="testHomePageURL" finished-at="2024-06-20T05:18:02 IST" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageURL -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@3b2da18f]" started-at="2024-06-20T05:18:02 IST" name="getResult" finished-at="2024-06-20T05:18:03 IST" duration-ms="395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageURL status=SUCCESS method=HomePageTest.testHomePageURL()[pri:0, instance:testcases.HomePageTest@3b2da18f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.HomePageTest@3b2da18f]" started-at="2024-06-20T05:18:03 IST" name="Setup" finished-at="2024-06-20T05:18:04 IST" duration-ms="1693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.testTopOffer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testTopOffer()[pri:0, instance:testcases.HomePageTest@3b2da18f]" started-at="2024-06-20T05:18:04 IST" name="testTopOffer" finished-at="2024-06-20T05:18:37 IST" duration-ms="33042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTopOffer -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@3b2da18f]" started-at="2024-06-20T05:18:37 IST" name="getResult" finished-at="2024-06-20T05:18:38 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTopOffer status=SUCCESS method=HomePageTest.testTopOffer()[pri:0, instance:testcases.HomePageTest@3b2da18f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.CartTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcases.CartTest@23282c25]" started-at="2024-06-20T05:17:47 IST" name="startReport" finished-at="2024-06-20T05:17:47 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.CartTest@23282c25]" started-at="2024-06-20T05:17:47 IST" name="Setup" finished-at="2024-06-20T05:17:49 IST" duration-ms="1762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.CartTest.testEmptyCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testEmptyCart()[pri:0, instance:testcases.CartTest@23282c25]" started-at="2024-06-20T05:17:49 IST" name="testEmptyCart" finished-at="2024-06-20T05:17:51 IST" duration-ms="1945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCart -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@23282c25]" started-at="2024-06-20T05:17:51 IST" name="getResult" finished-at="2024-06-20T05:17:51 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmptyCart status=SUCCESS method=CartTest.testEmptyCart()[pri:0, instance:testcases.CartTest@23282c25] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.CartTest@23282c25]" started-at="2024-06-20T05:22:08 IST" name="tearDown" finished-at="2024-06-20T05:22:09 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.CartTest -->
+      <class name="testcases.PincodeTest">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.PincodeTest@258e2e41]" started-at="2024-06-20T05:19:29 IST" name="Setup" finished-at="2024-06-20T05:19:31 IST" duration-ms="1250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.PincodeTest.testPincodeFail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testPincodeFail()[pri:0, instance:testcases.PincodeTest@258e2e41]" started-at="2024-06-20T05:19:31 IST" name="testPincodeFail" finished-at="2024-06-20T05:20:07 IST" duration-ms="36821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPincodeFail -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.PincodeTest@258e2e41]" started-at="2024-06-20T05:20:07 IST" name="getResult" finished-at="2024-06-20T05:20:08 IST" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPincodeFail status=SUCCESS method=PincodeTest.testPincodeFail()[pri:0, instance:testcases.PincodeTest@258e2e41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.PincodeTest@258e2e41]" started-at="2024-06-20T05:20:08 IST" name="Setup" finished-at="2024-06-20T05:20:09 IST" duration-ms="1014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.PincodeTest.testPincodePass()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testPincodePass()[pri:0, instance:testcases.PincodeTest@258e2e41]" started-at="2024-06-20T05:20:09 IST" name="testPincodePass" finished-at="2024-06-20T05:20:16 IST" duration-ms="7047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPincodePass -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.PincodeTest@258e2e41]" started-at="2024-06-20T05:20:16 IST" name="getResult" finished-at="2024-06-20T05:20:16 IST" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPincodePass status=SUCCESS method=PincodeTest.testPincodePass()[pri:0, instance:testcases.PincodeTest@258e2e41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.PincodeTest -->
+      <class name="testcases.SocialMediaTest">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.SocialMediaTest@3b938003]" started-at="2024-06-20T05:21:27 IST" name="Setup" finished-at="2024-06-20T05:21:28 IST" duration-ms="1025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SocialMediaTest.testHomePageSocialsFacebook()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testHomePageSocialsFacebook()[pri:0, instance:testcases.SocialMediaTest@3b938003]" started-at="2024-06-20T05:21:28 IST" name="testHomePageSocialsFacebook" finished-at="2024-06-20T05:21:39 IST" duration-ms="11321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageSocialsFacebook -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.SocialMediaTest@3b938003]" started-at="2024-06-20T05:21:39 IST" name="getResult" finished-at="2024-06-20T05:21:39 IST" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageSocialsFacebook status=SUCCESS method=SocialMediaTest.testHomePageSocialsFacebook()[pri:0, instance:testcases.SocialMediaTest@3b938003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.SocialMediaTest@3b938003]" started-at="2024-06-20T05:21:39 IST" name="Setup" finished-at="2024-06-20T05:21:41 IST" duration-ms="1390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SocialMediaTest.testHomePageSocialsTwitter()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testHomePageSocialsTwitter()[pri:0, instance:testcases.SocialMediaTest@3b938003]" started-at="2024-06-20T05:21:41 IST" name="testHomePageSocialsTwitter" finished-at="2024-06-20T05:21:53 IST" duration-ms="12034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageSocialsTwitter -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.SocialMediaTest@3b938003]" started-at="2024-06-20T05:21:53 IST" name="getResult" finished-at="2024-06-20T05:21:53 IST" duration-ms="535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageSocialsTwitter status=SUCCESS method=SocialMediaTest.testHomePageSocialsTwitter()[pri:0, instance:testcases.SocialMediaTest@3b938003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.SocialMediaTest@3b938003]" started-at="2024-06-20T05:21:53 IST" name="Setup" finished-at="2024-06-20T05:21:55 IST" duration-ms="1439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SocialMediaTest.testHomePageSocialsYouTube()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testHomePageSocialsYouTube()[pri:0, instance:testcases.SocialMediaTest@3b938003]" started-at="2024-06-20T05:21:55 IST" name="testHomePageSocialsYouTube" finished-at="2024-06-20T05:22:08 IST" duration-ms="13288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageSocialsYouTube -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.SocialMediaTest@3b938003]" started-at="2024-06-20T05:22:08 IST" name="getResult" finished-at="2024-06-20T05:22:08 IST" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageSocialsYouTube status=SUCCESS method=SocialMediaTest.testHomePageSocialsYouTube()[pri:0, instance:testcases.SocialMediaTest@3b938003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.SocialMediaTest -->
+      <class name="testcases.SearchFailTest">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.SearchFailTest@3d299e3]" started-at="2024-06-20T05:20:16 IST" name="Setup" finished-at="2024-06-20T05:20:17 IST" duration-ms="964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SearchFailTest.testProductSearchFail_2() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testProductSearchFail_2()[pri:1, instance:testcases.SearchFailTest@3d299e3]" started-at="2024-06-20T05:20:17 IST" name="testProductSearchFail_2" finished-at="2024-06-20T05:20:35 IST" duration-ms="18478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearchFail_2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.SearchFailTest@3d299e3]" started-at="2024-06-20T05:20:35 IST" name="getResult" finished-at="2024-06-20T05:20:36 IST" duration-ms="353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductSearchFail_2 status=SUCCESS method=SearchFailTest.testProductSearchFail_2()[pri:1, instance:testcases.SearchFailTest@3d299e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.SearchFailTest@3d299e3]" started-at="2024-06-20T05:20:36 IST" name="Setup" finished-at="2024-06-20T05:20:37 IST" duration-ms="1289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SearchFailTest.testProductSearchFail_1() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testProductSearchFail_1()[pri:2, instance:testcases.SearchFailTest@3d299e3]" started-at="2024-06-20T05:20:37 IST" name="testProductSearchFail_1" finished-at="2024-06-20T05:21:12 IST" duration-ms="35282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearchFail_1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.SearchFailTest@3d299e3]" started-at="2024-06-20T05:21:12 IST" name="getResult" finished-at="2024-06-20T05:21:13 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductSearchFail_1 status=SUCCESS method=SearchFailTest.testProductSearchFail_1()[pri:2, instance:testcases.SearchFailTest@3d299e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.SearchFailTest -->
+      <class name="testcases.PhoneNumberTest">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.PhoneNumberTest@5906ebcb]" started-at="2024-06-20T05:18:38 IST" name="Setup" finished-at="2024-06-20T05:18:39 IST" duration-ms="1384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.PhoneNumberTest.testPhoneNumberFail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testPhoneNumberFail()[pri:0, instance:testcases.PhoneNumberTest@5906ebcb]" started-at="2024-06-20T05:18:39 IST" name="testPhoneNumberFail" finished-at="2024-06-20T05:19:23 IST" duration-ms="44418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhoneNumberFail -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.PhoneNumberTest@5906ebcb]" started-at="2024-06-20T05:19:23 IST" name="getResult" finished-at="2024-06-20T05:19:24 IST" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPhoneNumberFail status=SUCCESS method=PhoneNumberTest.testPhoneNumberFail()[pri:0, instance:testcases.PhoneNumberTest@5906ebcb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.PhoneNumberTest@5906ebcb]" started-at="2024-06-20T05:19:24 IST" name="Setup" finished-at="2024-06-20T05:19:25 IST" duration-ms="1175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.PhoneNumberTest.testPhoneNumberPass()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testPhoneNumberPass()[pri:0, instance:testcases.PhoneNumberTest@5906ebcb]" started-at="2024-06-20T05:19:25 IST" name="testPhoneNumberPass" finished-at="2024-06-20T05:19:29 IST" duration-ms="4274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhoneNumberPass -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.PhoneNumberTest@5906ebcb]" started-at="2024-06-20T05:19:29 IST" name="getResult" finished-at="2024-06-20T05:19:29 IST" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPhoneNumberPass status=SUCCESS method=PhoneNumberTest.testPhoneNumberPass()[pri:0, instance:testcases.PhoneNumberTest@5906ebcb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.PhoneNumberTest -->
+      <class name="testcases.SearchPassTest">
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.SearchPassTest@55a561cf]" started-at="2024-06-20T05:21:13 IST" name="Setup" finished-at="2024-06-20T05:21:14 IST" duration-ms="1045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SearchPassTest.testProductSearch_2() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testProductSearch_2()[pri:1, instance:testcases.SearchPassTest@55a561cf]" started-at="2024-06-20T05:21:14 IST" name="testProductSearch_2" finished-at="2024-06-20T05:21:20 IST" duration-ms="5888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch_2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.SearchPassTest@55a561cf]" started-at="2024-06-20T05:21:20 IST" name="getResult" finished-at="2024-06-20T05:21:20 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductSearch_2 status=SUCCESS method=SearchPassTest.testProductSearch_2()[pri:1, instance:testcases.SearchPassTest@55a561cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="Setup(java.lang.reflect.Method)[pri:0, instance:testcases.SearchPassTest@55a561cf]" started-at="2024-06-20T05:21:20 IST" name="Setup" finished-at="2024-06-20T05:21:21 IST" duration-ms="1057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SearchPassTest.testProductSearch_1() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testProductSearch_1()[pri:2, instance:testcases.SearchPassTest@55a561cf]" started-at="2024-06-20T05:21:21 IST" name="testProductSearch_1" finished-at="2024-06-20T05:21:26 IST" duration-ms="5629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch_1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.SearchPassTest@55a561cf]" started-at="2024-06-20T05:21:26 IST" name="getResult" finished-at="2024-06-20T05:21:27 IST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductSearch_1 status=SUCCESS method=SearchPassTest.testProductSearch_1()[pri:2, instance:testcases.SearchPassTest@55a561cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.SearchPassTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

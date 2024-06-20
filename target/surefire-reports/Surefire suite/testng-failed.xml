@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testcases.CompareProductsTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="getResult"/>
+          <include name="testProductComparison"/>
+        </methods>
+      </class> <!-- testcases.CompareProductsTest -->
+      <class name="testcases.SocialMediaTest">
+        <methods>
+          <include name="testHomePageSocialsFacebook"/>
+          <include name="testHomePageSocialsTwitter"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="getResult"/>
+          <include name="testHomePageSocialsYouTube"/>
+        </methods>
+      </class> <!-- testcases.SocialMediaTest -->
+      <class name="testcases.SearchPassTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="testProductSearch_1"/>
+          <include name="startReport"/>
+          <include name="testProductSearch_2"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- testcases.SearchPassTest -->
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="testHomePageURL"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="getResult"/>
+          <include name="testTopOffer"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.PincodeTest">
+        <methods>
+          <include name="testPincodePass"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="testPincodeFail"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- testcases.PincodeTest -->
+      <class name="testcases.SearchFailTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="getResult"/>
+          <include name="testProductSearchFail_1"/>
+          <include name="testProductSearchFail_2"/>
+        </methods>
+      </class> <!-- testcases.SearchFailTest -->
+      <class name="testcases.PhoneNumberTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="getResult"/>
+          <include name="testPhoneNumberFail"/>
+          <include name="testPhoneNumberPass"/>
+        </methods>
+      </class> <!-- testcases.PhoneNumberTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

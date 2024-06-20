@@ -1,0 +1,511 @@
+2024-06-14 22:35:35 INFO  BasePage:90 - URL Fetched
+2024-06-14 23:47:09 INFO  BasePage:103 - URL Fetched
+2024-06-15 00:22:17 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 00:22:21 INFO  BasePage:35 - Normal Execution for FacebookPage
+2024-06-15 00:23:32 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 00:23:34 INFO  BasePage:35 - Normal Execution for FacebookPage
+2024-06-15 00:24:22 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 00:24:24 INFO  BasePage:35 - Normal Execution for FacebookPage
+2024-06-15 00:29:12 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 00:29:14 INFO  BasePage:38 - Normal Execution for FacebookPage
+2024-06-15 00:30:21 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 00:30:25 INFO  BasePage:38 - Normal Execution for FacebookPage
+2024-06-15 00:32:12 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 00:32:18 INFO  BasePage:44 - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6af5ad341db47a86fd7f36670d571d11, findElement {value=(//i)[7], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53443/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6af5ad341db47a86fd7f36670d571d11
+2024-06-15 00:32:32 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 00:32:36 INFO  BasePage:40 - Normal Execution for FacebookPage
+2024-06-15 00:34:38 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 00:34:41 INFO  BasePage:40 - Normal Execution for FacebookPage
+2024-06-15 00:41:41 INFO  BasePage:133 - Twitter Button Clicked
+2024-06-15 00:53:57 INFO  BasePage:143 - YouTube Button Clicked
+2024-06-15 02:09:52 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 02:09:56 INFO  BasePage:39 - Normal Execution for FacebookPage
+2024-06-15 02:10:02 INFO  BasePage:133 - Twitter Button Clicked
+2024-06-15 02:10:15 INFO  BasePage:143 - YouTube Button Clicked
+2024-06-15 02:10:29 INFO  BasePage:103 - URL Fetched
+2024-06-15 02:10:35 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 02:10:37 INFO  BasePage:39 - Normal Execution for FacebookPage
+2024-06-15 02:10:51 INFO  BasePage:103 - URL Fetched
+2024-06-15 02:11:09 INFO  BasePage:103 - URL Fetched
+2024-06-15 02:11:24 INFO  BasePage:143 - YouTube Button Clicked
+2024-06-15 02:11:38 INFO  BasePage:103 - URL Fetched
+2024-06-15 02:11:50 INFO  BasePage:133 - Twitter Button Clicked
+2024-06-15 10:08:24 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 10:08:25 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 10:08:31 INFO  BasePage:39 - Normal Execution for FacebookPage
+2024-06-15 10:08:32 INFO  BasePage:39 - Normal Execution for FacebookPage
+2024-06-15 10:08:43 INFO  BasePage:133 - Twitter Button Clicked
+2024-06-15 10:08:43 INFO  BasePage:133 - Twitter Button Clicked
+2024-06-15 10:09:06 INFO  BasePage:143 - YouTube Button Clicked
+2024-06-15 10:09:12 INFO  BasePage:103 - URL Fetched
+2024-06-15 10:09:27 INFO  BasePage:103 - URL Fetched
+2024-06-15 10:37:04 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 10:37:07 INFO  BasePage:39 - Normal Execution for FacebookPage
+2024-06-15 10:37:13 INFO  BasePage:133 - Twitter Button Clicked
+2024-06-15 10:37:27 INFO  BasePage:143 - YouTube Button Clicked
+2024-06-15 10:37:42 INFO  BasePage:103 - URL Fetched
+2024-06-15 13:56:08 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 13:56:14 INFO  BasePage:43 - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/D67bXjSNnNj.png&quot;); background-position: 0px -802px; background-size: auto; width: 18px; height: 18px; background-repeat: no-repeat; display: inline-block;"></i> is not clickable at point (1220, 884). Other element would receive the click: <div class="__fb-light-mode x1qjc9v5 x9f619 x78zum5 xdt5ytf xl56j7k x1c4vz4f xg6iff7">...</div>
+  (Session info: chrome=125.0.6422.176)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [446f88d597023980cfd77db4811003e0, clickElement {id=f.2B0B3E77597CF82DB52E39F18B561680.d.426311839A424444287FF3A4A82C28CC.e.56}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64363}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64363/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (446f88d597023980cfd77db4811003e0)] -> xpath: (//i)[7]]
+Session ID: 446f88d597023980cfd77db4811003e0
+2024-06-15 13:56:19 INFO  BasePage:133 - Twitter Button Clicked
+2024-06-15 13:56:40 INFO  BasePage:143 - YouTube Button Clicked
+2024-06-15 13:56:53 INFO  BasePage:103 - URL Fetched
+2024-06-15 13:58:47 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 13:58:51 INFO  BasePage:43 - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/D67bXjSNnNj.png&quot;); background-position: 0px -802px; background-size: auto; width: 18px; height: 18px; background-repeat: no-repeat; display: inline-block;"></i> is not clickable at point (1220, 884). Other element would receive the click: <div class="__fb-light-mode x1qjc9v5 x9f619 x78zum5 xdt5ytf xl56j7k x1c4vz4f xg6iff7">...</div>
+  (Session info: chrome=125.0.6422.176)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12d20b7840154e7498da3b80ab364963, clickElement {id=f.809A83CF00A15D8AD248E0806DD3464D.d.45FE2FE7F50F08FD64FF60900CD0A2C8.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64723}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64723/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (12d20b7840154e7498da3b80ab364963)] -> xpath: (//i)[7]]
+Session ID: 12d20b7840154e7498da3b80ab364963
+2024-06-15 13:58:56 INFO  BasePage:133 - Twitter Button Clicked
+2024-06-15 13:59:12 INFO  BasePage:103 - URL Fetched
+2024-06-15 14:04:40 INFO  BasePage:123 - Facebook Button Clicked
+2024-06-15 14:04:43 INFO  BasePage:39 - Normal Execution for FacebookPage
+2024-06-16 00:29:04 INFO  BasePage:106 - URL Fetched
+2024-06-16 00:29:50 INFO  BasePage:156 - Top Offer present
+2024-06-18 10:27:45 INFO  BasePage:67 - Search query entered: 
+2024-06-18 10:27:45 INFO  BasePage:71 - Search Sent
+2024-06-18 10:27:46 INFO  BasePage:67 - Search query entered: 
+2024-06-18 10:27:46 INFO  BasePage:71 - Search Sent
+2024-06-18 10:28:11 INFO  BasePage:67 - Search query entered: 
+2024-06-18 10:28:11 INFO  BasePage:71 - Search Sent
+2024-06-18 15:40:33 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 15:40:35 INFO  BasePage:71 - Search Sent
+2024-06-18 15:40:35 INFO  BasePage:60 - First Product present
+2024-06-18 15:40:36 ERROR BasePage:68 - java.io.FileNotFoundException: C:\Users\balpreetsingh\Downloads\Exit Test\src\test\resources\Screenshots\[[ChromeDriver: chrome on windows (bb0a8e089eeefc525ac87f660c58b991)] -> xpath: (\div[@data-id])[1]]First Product SS.png (The filename, directory name, or volume label syntax is incorrect)
+2024-06-18 15:43:50 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 15:43:55 INFO  BasePage:71 - Search Sent
+2024-06-18 15:43:55 INFO  BasePage:60 - First Product present
+2024-06-18 15:43:55 ERROR BasePage:68 - java.io.FileNotFoundException: C:\Users\balpreetsingh\Downloads\Exit Test\src\test\resources\Screenshots\[[ChromeDriver: chrome on windows (508a87db7c5ea963b9ccfc6438c9b4cc)] -> xpath: (\div[@data-id])[1]] First Product SS.png (The filename, directory name, or volume label syntax is incorrect)
+2024-06-18 15:45:09 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 15:45:12 INFO  BasePage:71 - Search Sent
+2024-06-18 15:45:12 INFO  BasePage:60 - First Product present
+2024-06-18 15:55:32 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 15:55:34 INFO  BasePage:71 - Search Sent
+2024-06-18 15:55:34 INFO  BasePage:63 - First Product present
+2024-06-18 15:56:22 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 15:56:25 INFO  BasePage:71 - Search Sent
+2024-06-18 15:56:25 INFO  BasePage:63 - First Product present
+2024-06-18 15:57:45 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 15:57:46 INFO  BasePage:71 - Search Sent
+2024-06-18 15:57:46 INFO  BasePage:63 - First Product present
+2024-06-18 15:58:45 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 15:58:47 INFO  BasePage:71 - Search Sent
+2024-06-18 15:58:47 INFO  BasePage:63 - First Product present
+2024-06-18 15:59:17 INFO  BasePage:67 - Search query entered: Pillow Cover
+2024-06-18 15:59:19 INFO  BasePage:71 - Search Sent
+2024-06-18 15:59:19 INFO  BasePage:63 - First Product present
+2024-06-18 16:01:57 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 16:02:00 INFO  BasePage:71 - Search Sent
+2024-06-18 16:02:00 INFO  BasePage:45 - Filtering by Brand Name
+2024-06-18 16:02:00 INFO  BasePage:49 - Brand Name entered: Apple
+2024-06-18 16:02:00 INFO  BasePage:53 - Brand Search filtered
+2024-06-18 16:02:00 INFO  BasePage:63 - First Product present
+2024-06-18 16:05:11 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 16:05:14 INFO  BasePage:71 - Search Sent
+2024-06-18 16:05:14 INFO  BasePage:48 - Filtering by Brand Name
+2024-06-18 16:05:14 INFO  BasePage:52 - Brand Name entered: Apple
+2024-06-18 16:05:34 INFO  BasePage:56 - Brand Search filtered
+2024-06-18 16:05:37 ERROR BasePage:76 - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.176)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75f3f0d0a8a7c79f7164ae1afa6b21dc, findElement {value=(//div[@data-id])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53666}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53666/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75f3f0d0a8a7c79f7164ae1afa6b21dc
+2024-06-18 16:08:14 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 16:08:16 INFO  BasePage:71 - Search Sent
+2024-06-18 16:08:16 INFO  BasePage:48 - Filtering by Brand Name
+2024-06-18 16:08:16 INFO  BasePage:52 - Brand Name entered: Apple
+2024-06-18 16:08:25 INFO  BasePage:56 - Brand Search filtered
+2024-06-18 16:08:29 ERROR BasePage:76 - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.176)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0383a868d0961f164d65ed1c48a8649, findElement {value=(//div[@data-id])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53854}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53854/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0383a868d0961f164d65ed1c48a8649
+2024-06-18 16:10:30 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 16:10:32 INFO  BasePage:71 - Search Sent
+2024-06-18 16:10:32 INFO  BasePage:48 - Filtering by Brand Name
+2024-06-18 16:10:32 INFO  BasePage:52 - Brand Name entered: Apple
+2024-06-18 16:11:57 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 16:11:59 INFO  BasePage:71 - Search Sent
+2024-06-18 16:11:59 INFO  BasePage:48 - Filtering by Brand Name
+2024-06-18 16:11:59 INFO  BasePage:52 - Brand Name entered: Apple
+2024-06-18 16:11:59 ERROR BasePage:66 - java.lang.UnsupportedOperationException: To submit an element, it must be nested inside a form element
+2024-06-18 16:11:59 INFO  BasePage:70 - Brand Search filtered
+2024-06-18 16:11:59 INFO  BasePage:80 - First Product present
+2024-06-18 16:12:16 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 16:12:19 INFO  BasePage:71 - Search Sent
+2024-06-18 16:12:19 INFO  BasePage:48 - Filtering by Brand Name
+2024-06-18 16:12:19 INFO  BasePage:52 - Brand Name entered: Apple
+2024-06-18 16:12:29 ERROR BasePage:66 - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=125.0.6422.176)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4f498947aaa5fecd4250931aeac7433, clickElement {id=f.40C5F35C3B93848EFA8791D7859FB5D2.d.2E9815B8F83D270D21B61B7C3A87237B.e.306}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.176, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54183/devtoo..., se:cdpVersion: 125.0.6422.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a4f498947aaa5fecd4250931aeac7433)] -> xpath: (//input[@type='checkbox'])[1]]
+Session ID: a4f498947aaa5fecd4250931aeac7433
+2024-06-18 16:12:29 INFO  BasePage:70 - Brand Search filtered
+2024-06-18 16:12:29 INFO  BasePage:80 - First Product present
+2024-06-18 16:19:12 INFO  BasePage:67 - Search query entered: Phone
+2024-06-18 16:19:14 INFO  BasePage:71 - Search Sent
+2024-06-18 16:19:14 INFO  BasePage:49 - Filtering by Brand Name
+2024-06-18 16:19:14 INFO  BasePage:53 - Brand Name entered: Apple
+2024-06-18 16:19:15 INFO  BasePage:65 - Clear All button is visible
+2024-06-18 16:19:15 INFO  BasePage:75 - Brand Search filtered
+2024-06-18 16:19:15 INFO  BasePage:85 - First Product present
+2024-06-19 01:43:00 ERROR BasePage:51 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(), 'new here')]' (tried for 3 second(s) with 500 milliseconds interval)
+2024-06-19 02:19:43 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 02:19:48 INFO  BasePage:71 - Search Sent
+2024-06-19 02:19:48 INFO  BasePage:82 - First Product present
+2024-06-19 02:20:47 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 02:20:51 INFO  BasePage:71 - Search Sent
+2024-06-19 02:20:52 INFO  BasePage:82 - First Product present
+2024-06-19 21:29:39 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 21:29:40 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 21:29:44 INFO  BasePage:71 - Search Sent
+2024-06-19 21:29:44 INFO  BasePage:46 - Filtering by Brand Name
+2024-06-19 21:29:54 INFO  BasePage:71 - Search Sent
+2024-06-19 21:29:55 INFO  BasePage:46 - Filtering by Brand Name
+2024-06-19 21:29:57 INFO  BasePage:50 - Brand Name entered: Apple
+2024-06-19 21:29:57 INFO  BasePage:50 - Brand Name entered: Apple
+2024-06-19 21:29:58 INFO  BasePage:62 - Clear All button is visible
+2024-06-19 21:29:58 INFO  BasePage:72 - Brand Search filtered
+2024-06-19 21:29:58 INFO  BasePage:103 - First Product present
+2024-06-19 21:29:58 INFO  BasePage:62 - Clear All button is visible
+2024-06-19 21:29:58 INFO  BasePage:72 - Brand Search filtered
+2024-06-19 21:29:59 INFO  BasePage:103 - First Product present
+2024-06-19 21:36:31 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 21:36:39 INFO  BasePage:71 - Search Sent
+2024-06-19 21:36:39 INFO  BasePage:46 - Filtering by Brand Name
+2024-06-19 21:36:40 INFO  BasePage:50 - Brand Name entered: Apple
+2024-06-19 21:36:41 INFO  BasePage:62 - Clear All button is visible
+2024-06-19 21:36:41 INFO  BasePage:72 - Brand Search filtered
+2024-06-19 21:36:41 INFO  BasePage:103 - First Product present
+2024-06-19 21:46:51 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 21:46:54 INFO  BasePage:71 - Search Sent
+2024-06-19 21:46:54 INFO  BasePage:46 - Filtering by Brand Name
+2024-06-19 21:46:54 INFO  BasePage:50 - Brand Name entered: Apple
+2024-06-19 21:47:02 INFO  BasePage:62 - Clear All button is visible
+2024-06-19 21:47:02 INFO  BasePage:72 - Brand Search filtered
+2024-06-19 21:47:02 INFO  BasePage:103 - First Product present
+2024-06-19 21:48:35 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 21:48:46 INFO  BasePage:71 - Search Sent
+2024-06-19 21:48:46 INFO  BasePage:46 - Filtering by Brand Name
+2024-06-19 21:48:46 INFO  BasePage:50 - Brand Name entered: Apple
+2024-06-19 21:48:47 INFO  BasePage:62 - Clear All button is visible
+2024-06-19 21:48:47 INFO  BasePage:72 - Brand Search filtered
+2024-06-19 21:48:47 INFO  BasePage:103 - First Product present
+2024-06-19 21:54:11 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 21:54:14 INFO  BasePage:71 - Search Sent
+2024-06-19 21:54:15 INFO  BasePage:50 - Filtering by Brand Name
+2024-06-19 21:54:15 INFO  BasePage:54 - Brand Name entered: Apple
+2024-06-19 21:54:16 INFO  BasePage:66 - Clear All button is visible
+2024-06-19 21:54:16 INFO  BasePage:76 - Brand Search filtered
+2024-06-19 21:54:16 INFO  BasePage:107 - First Product present
+2024-06-19 21:56:34 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 21:56:36 INFO  BasePage:71 - Search Sent
+2024-06-19 21:56:36 INFO  BasePage:48 - Filtering by Brand Name
+2024-06-19 21:56:36 INFO  BasePage:52 - Brand Name entered: Apple
+2024-06-19 21:56:36 INFO  BasePage:64 - Clear All button is visible
+2024-06-19 21:56:36 INFO  BasePage:74 - Brand Search filtered
+2024-06-19 21:56:37 INFO  BasePage:105 - First Product present
+2024-06-19 21:56:42 INFO  BasePage:67 - Search query entered: Pillow Cover
+2024-06-19 21:56:45 INFO  BasePage:71 - Search Sent
+2024-06-19 21:56:45 INFO  BasePage:105 - First Product present
+2024-06-19 22:00:25 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:00:28 INFO  BasePage:71 - Search Sent
+2024-06-19 22:00:29 INFO  BasePage:84 - First Product present
+2024-06-19 22:02:27 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:02:31 INFO  BasePage:71 - Search Sent
+2024-06-19 22:02:31 INFO  BasePage:84 - First Product present
+2024-06-19 22:04:43 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:04:46 INFO  BasePage:71 - Search Sent
+2024-06-19 22:04:46 INFO  BasePage:84 - First Product present
+2024-06-19 22:09:50 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:09:52 INFO  BasePage:71 - Search Sent
+2024-06-19 22:09:52 INFO  BasePage:84 - First Product present
+2024-06-19 22:10:37 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:10:40 INFO  BasePage:71 - Search Sent
+2024-06-19 22:10:41 INFO  BasePage:84 - First Product present
+2024-06-19 22:10:44 INFO  BasePage:36 - Phone number box visible
+2024-06-19 22:10:44 INFO  BasePage:40 - Pincode entered: 208022
+2024-06-19 22:10:44 INFO  BasePage:48 - Pincode is valid.
+2024-06-19 22:11:37 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:11:39 INFO  BasePage:71 - Search Sent
+2024-06-19 22:11:39 INFO  BasePage:84 - First Product present
+2024-06-19 22:11:45 INFO  BasePage:36 - Phone number box visible
+2024-06-19 22:11:45 INFO  BasePage:40 - Pincode entered: 208022
+2024-06-19 22:11:45 INFO  BasePage:48 - Pincode is valid.
+2024-06-19 22:11:45 ERROR BasePage:54 - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49a3eedafdb96feba5f862f9871919e0, isElementDisplayed {id=f.02629F493DC2630A5CCF1E5F6752A342.d.95D4819B2B1E9343F825EE85B2782478.e.86}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64810/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (49a3eedafdb96feba5f862f9871919e0)] -> xpath: //span[text()='View Details']]
+Session ID: 49a3eedafdb96feba5f862f9871919e0
+2024-06-19 22:13:00 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:13:02 INFO  BasePage:71 - Search Sent
+2024-06-19 22:13:02 INFO  BasePage:84 - First Product present
+2024-06-19 22:13:09 INFO  BasePage:36 - Phone number box visible
+2024-06-19 22:13:09 INFO  BasePage:40 - Pincode entered: 208022
+2024-06-19 22:13:09 INFO  BasePage:48 - Pincode is valid.
+2024-06-19 22:14:12 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:14:14 INFO  BasePage:71 - Search Sent
+2024-06-19 22:14:14 INFO  BasePage:84 - First Product present
+2024-06-19 22:14:16 INFO  BasePage:36 - Phone number box visible
+2024-06-19 22:14:16 INFO  BasePage:40 - Pincode entered: 101010
+2024-06-19 22:14:16 INFO  BasePage:48 - Pincode is valid.
+2024-06-19 22:15:47 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:15:49 INFO  BasePage:71 - Search Sent
+2024-06-19 22:15:49 INFO  BasePage:84 - First Product present
+2024-06-19 22:15:51 INFO  BasePage:36 - Phone number box visible
+2024-06-19 22:15:51 INFO  BasePage:40 - Pincode entered: 10101
+2024-06-19 22:16:11 ERROR BasePage:54 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='View Details']' (tried for 3 second(s) with 500 milliseconds interval)
+2024-06-19 22:17:30 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:17:32 INFO  BasePage:71 - Search Sent
+2024-06-19 22:17:32 INFO  BasePage:84 - First Product present
+2024-06-19 22:17:34 INFO  BasePage:36 - Phone number box visible
+2024-06-19 22:17:34 INFO  BasePage:40 - Pincode entered: 10101
+2024-06-19 22:17:54 ERROR BasePage:54 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='View Details']' (tried for 3 second(s) with 500 milliseconds interval)
+2024-06-19 22:18:34 INFO  BasePage:67 - Search query entered: phone
+2024-06-19 22:18:36 INFO  BasePage:71 - Search Sent
+2024-06-19 22:18:36 INFO  BasePage:84 - First Product present
+2024-06-19 22:18:43 INFO  BasePage:36 - Phone number box visible
+2024-06-19 22:18:43 INFO  BasePage:40 - Pincode entered: 10101
+2024-06-19 22:29:32 INFO  BasePage:67 - Search query entered: Pillow Cover
+2024-06-19 22:29:39 INFO  BasePage:71 - Search Sent
+2024-06-19 22:29:39 INFO  BasePage:117 - First Product present
+2024-06-19 22:29:43 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:29:47 INFO  BasePage:71 - Search Sent
+2024-06-19 22:29:47 INFO  BasePage:58 - Filtering by Brand Name
+2024-06-19 22:29:47 INFO  BasePage:62 - Brand Name entered: Apple
+2024-06-19 22:29:49 INFO  BasePage:74 - Clear All button is visible
+2024-06-19 22:29:49 INFO  BasePage:84 - Brand Search filtered
+2024-06-19 22:29:49 INFO  BasePage:117 - First Product present
+2024-06-19 22:32:03 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:32:07 INFO  BasePage:71 - Search Sent
+2024-06-19 22:35:02 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:35:05 INFO  BasePage:71 - Search Sent
+2024-06-19 22:36:23 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:36:26 INFO  BasePage:71 - Search Sent
+2024-06-19 22:36:40 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:36:48 INFO  BasePage:71 - Search Sent
+2024-06-19 22:42:19 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:42:26 INFO  BasePage:71 - Search Sent
+2024-06-19 22:42:48 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:42:51 INFO  BasePage:71 - Search Sent
+2024-06-19 22:43:07 ERROR BasePage:168 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (adbdd161c7d8b48a63886d96c77d3656)] -> id: fk-compare-page] (tried for 3 second(s) with 500 milliseconds interval)
+2024-06-19 22:43:22 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:43:24 INFO  BasePage:71 - Search Sent
+2024-06-19 22:43:53 ERROR BasePage:168 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: fk-compare-page' (tried for 3 second(s) with 500 milliseconds interval)
+2024-06-19 22:43:59 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:44:02 INFO  BasePage:71 - Search Sent
+2024-06-19 22:44:09 INFO  BasePage:164 - Comparison Chart visible
+2024-06-19 22:45:09 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:45:11 INFO  BasePage:71 - Search Sent
+2024-06-19 22:45:12 INFO  BasePage:164 - Comparison Chart visible
+2024-06-19 22:46:40 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:46:42 INFO  BasePage:71 - Search Sent
+2024-06-19 22:46:57 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:47:05 INFO  BasePage:71 - Search Sent
+2024-06-19 22:49:19 INFO  BasePage:67 - Search query entered: Phone
+2024-06-19 22:49:21 INFO  BasePage:71 - Search Sent
+2024-06-19 22:49:26 INFO  BasePage:169 - Comparison Chart visible
+2024-06-20 03:55:18 INFO  BasePage:67 - Search query entered: @#$@!@FDVD
+2024-06-20 03:55:21 INFO  BasePage:71 - Search Sent
+2024-06-20 03:55:41 ERROR BasePage:132 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//div[@data-id])[1]' (tried for 3 second(s) with 500 milliseconds interval)
+2024-06-20 03:58:00 INFO  BasePage:67 - Search query entered: @#$@!@FDVD
+2024-06-20 03:58:02 INFO  BasePage:71 - Search Sent
+2024-06-20 03:58:22 INFO  BasePage:121 - First Product present
+2024-06-20 03:58:33 ERROR BasePage:132 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@data-id])[1]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de3286752e171a47d6b1fda70370a9f8, findElement {value=(//div[@data-id])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64615/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de3286752e171a47d6b1fda70370a9f8
+2024-06-20 03:59:59 INFO  BasePage:67 - Search query entered: Phone
+2024-06-20 04:00:01 INFO  BasePage:71 - Search Sent
+2024-06-20 04:00:01 INFO  BasePage:62 - Filtering by Brand Name
+2024-06-20 04:00:01 INFO  BasePage:66 - Brand Name entered: !@$#@!%
+2024-06-20 04:00:12 ERROR BasePage:84 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='!@$#@!%']"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2d5dcc9119c84e93f0122261dddb2b0, findElement {value=//div[text()='!@$#@!%'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64745}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64745/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2d5dcc9119c84e93f0122261dddb2b0
+2024-06-20 04:00:12 INFO  BasePage:88 - Brand Search filtered
+2024-06-20 04:00:12 INFO  BasePage:121 - First Product present
+2024-06-20 04:01:30 INFO  BasePage:67 - Search query entered: iPhone
+2024-06-20 04:01:33 INFO  BasePage:71 - Search Sent
+2024-06-20 04:01:53 INFO  BasePage:62 - Filtering by Brand Name
+2024-06-20 04:03:03 INFO  BasePage:67 - Search query entered: smartphone
+2024-06-20 04:03:05 INFO  BasePage:71 - Search Sent
+2024-06-20 04:03:05 INFO  BasePage:62 - Filtering by Brand Name
+2024-06-20 04:03:05 INFO  BasePage:66 - Brand Name entered: !@$#@!%
+2024-06-20 04:03:15 ERROR BasePage:84 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='!@$#@!%']"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79b0312f8b8466e6b7bcf50bb9a59be2, findElement {using=xpath, value=//div[text()='!@$#@!%']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65033/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 79b0312f8b8466e6b7bcf50bb9a59be2
+2024-06-20 04:03:15 INFO  BasePage:88 - Brand Search filtered
+2024-06-20 04:03:15 INFO  BasePage:121 - First Product present
+2024-06-20 05:17:54 INFO  BasePage:67 - Search query entered: Phone
+2024-06-20 05:17:56 INFO  BasePage:71 - Search Sent
+2024-06-20 05:17:58 INFO  BasePage:169 - Comparison Chart visible
+2024-06-20 05:18:02 INFO  BasePage:106 - URL Fetched
+2024-06-20 05:18:27 INFO  BasePage:156 - Top Offer present
+2024-06-20 05:18:37 ERROR BasePage:166 - Top Offer not present
+2024-06-20 05:18:42 INFO  BasePage:39 - Phone number box visible
+2024-06-20 05:18:42 INFO  BasePage:43 - Number entered: 1234567890
+2024-06-20 05:19:03 INFO  BasePage:51 - New User found. Phone number is valid.
+2024-06-20 05:19:13 ERROR BasePage:57 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(), 'new here')]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [718a57e55d6c22cb5e0bee0d9a23c5e5, findElement {using=xpath, value=//span[contains(text(), 'new here')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54058/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 718a57e55d6c22cb5e0bee0d9a23c5e5
+2024-06-20 05:19:29 INFO  BasePage:39 - Phone number box visible
+2024-06-20 05:19:29 INFO  BasePage:43 - Number entered: 9839932328
+2024-06-20 05:19:29 INFO  BasePage:51 - New User found. Phone number is valid.
+2024-06-20 05:19:33 INFO  BasePage:67 - Search query entered: phone
+2024-06-20 05:19:35 INFO  BasePage:71 - Search Sent
+2024-06-20 05:19:35 INFO  BasePage:98 - First Product present
+2024-06-20 05:19:37 INFO  BasePage:36 - Phone number box visible
+2024-06-20 05:19:37 INFO  BasePage:40 - Pincode entered: 10101
+2024-06-20 05:19:57 INFO  BasePage:48 - Pincode is valid.
+2024-06-20 05:20:11 INFO  BasePage:67 - Search query entered: phone
+2024-06-20 05:20:13 INFO  BasePage:71 - Search Sent
+2024-06-20 05:20:13 INFO  BasePage:98 - First Product present
+2024-06-20 05:20:16 INFO  BasePage:36 - Phone number box visible
+2024-06-20 05:20:16 INFO  BasePage:40 - Pincode entered: 208022
+2024-06-20 05:20:16 INFO  BasePage:48 - Pincode is valid.
+2024-06-20 05:20:21 INFO  BasePage:67 - Search query entered: smartphone
+2024-06-20 05:20:25 INFO  BasePage:71 - Search Sent
+2024-06-20 05:20:25 INFO  BasePage:62 - Filtering by Brand Name
+2024-06-20 05:20:25 INFO  BasePage:66 - Brand Name entered: !@$#@!%
+2024-06-20 05:20:35 ERROR BasePage:84 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='!@$#@!%']"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d1bde8835af81443e84033127d61e25, findElement {using=xpath, value=//div[text()='!@$#@!%']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54373/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d1bde8835af81443e84033127d61e25
+2024-06-20 05:20:35 INFO  BasePage:88 - Brand Search filtered
+2024-06-20 05:20:35 INFO  BasePage:121 - First Product present
+2024-06-20 05:20:40 INFO  BasePage:67 - Search query entered: @#$@!@FDVD
+2024-06-20 05:20:42 INFO  BasePage:71 - Search Sent
+2024-06-20 05:21:02 INFO  BasePage:121 - First Product present
+2024-06-20 05:21:12 ERROR BasePage:132 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@data-id])[1]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc60cbf525db0c2ce57655392b7f6c22, findElement {using=xpath, value=(//div[@data-id])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54455}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54455/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc60cbf525db0c2ce57655392b7f6c22
+2024-06-20 05:21:16 INFO  BasePage:67 - Search query entered: Pillow Cover
+2024-06-20 05:21:19 INFO  BasePage:71 - Search Sent
+2024-06-20 05:21:19 INFO  BasePage:121 - First Product present
+2024-06-20 05:21:23 INFO  BasePage:67 - Search query entered: Phone
+2024-06-20 05:21:25 INFO  BasePage:71 - Search Sent
+2024-06-20 05:21:25 INFO  BasePage:62 - Filtering by Brand Name
+2024-06-20 05:21:25 INFO  BasePage:66 - Brand Name entered: Apple
+2024-06-20 05:21:26 INFO  BasePage:78 - Clear All button is visible
+2024-06-20 05:21:26 INFO  BasePage:88 - Brand Search filtered
+2024-06-20 05:21:26 INFO  BasePage:121 - First Product present
+2024-06-20 05:21:33 INFO  BasePage:126 - Facebook Button Clicked
+2024-06-20 05:21:39 ERROR BasePage:43 - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i data-visualcompletion="css-img" class="x1b0d499 xaj1gnb" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/w7kYQWJTGxk.png&quot;); background-position: 0px -285px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i> is not clickable at point (1286, 883). Other element would receive the click: <div class="__fb-light-mode x1qjc9v5 x9f619 x78zum5 xdt5ytf xl56j7k x1c4vz4f xg6iff7">...</div>
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afcf4f3e4adb61faaa7a09866d7f1bbc, clickElement {id=f.5C03010DA8B6C4A7FA58691A430B3E62.d.5B0B568936110D5B0C7082C2E402A635.e.57}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54626}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54626/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (afcf4f3e4adb61faaa7a09866d7f1bbc)] -> xpath: (//i)[7]]
+Session ID: afcf4f3e4adb61faaa7a09866d7f1bbc
+2024-06-20 05:21:44 INFO  BasePage:136 - Twitter Button Clicked
+2024-06-20 05:21:57 INFO  BasePage:146 - YouTube Button Clicked
+2024-06-20 05:29:01 INFO  BasePage:57 - Cart Button clicked
+2024-06-20 06:23:41 INFO  BasePage:67 - Search query entered: Phone
+2024-06-20 06:23:45 INFO  BasePage:71 - Search Sent
+2024-06-20 06:23:45 INFO  BasePage:98 - First Product present
+2024-06-20 06:23:50 INFO  BasePage:69 - Add to Cart Button is visible
+2024-06-20 06:25:14 INFO  BasePage:67 - Search query entered: Phone
+2024-06-20 06:25:17 INFO  BasePage:71 - Search Sent
+2024-06-20 06:25:17 INFO  BasePage:98 - First Product present
+2024-06-20 06:25:21 INFO  BasePage:69 - Add to Cart Button is visible
+2024-06-20 06:36:36 INFO  BasePage:67 - Search query entered: Phone
+2024-06-20 06:36:38 INFO  BasePage:71 - Search Sent
+2024-06-20 06:36:39 INFO  BasePage:98 - First Product present
+2024-06-20 06:36:42 INFO  BasePage:69 - Add to Cart Button is visible
+2024-06-20 06:36:43 INFO  BasePage:57 - CartSS: testSaveLaterCart_added
+2024-06-20 06:36:44 INFO  BasePage:69 - Save for Later Button Found
+2024-06-20 06:36:44 INFO  BasePage:75 - Save for Later Button Clicked
+2024-06-20 06:36:44 INFO  BasePage:57 - CartSS: testSaveLaterCart_removed
+2024-06-20 06:36:44 INFO  BasePage:91 - Move To Cart Button Found
+2024-06-20 06:36:45 INFO  BasePage:97 - Move To Cart Button Clicked
+2024-06-20 06:36:45 INFO  BasePage:57 - CartSS: testSaveLaterCart_moved
+2024-06-20 07:56:33 INFO  BasePage:67 - Search query entered: Book
+2024-06-20 07:56:36 INFO  BasePage:71 - Search Sent
+2024-06-20 07:56:56 INFO  BasePage:93 - Setting Maximum price
+2024-06-20 07:57:06 ERROR BasePage:105 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[2]"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6e189cb73dccab8b387613ca4533450, findElement {value=//select[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\BALPRE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53380/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6e189cb73dccab8b387613ca4533450
+2024-06-20 07:57:06 INFO  BasePage:172 - First Product present
+2024-06-20 07:57:10 INFO  BasePage:67 - Search query entered: Book
+2024-06-20 07:57:12 INFO  BasePage:71 - Search Sent
+2024-06-20 07:57:12 INFO  BasePage:71 - Setting Minimum price
+2024-06-20 07:57:13 INFO  BasePage:77 - Minimum Price selected
+2024-06-20 07:57:13 INFO  BasePage:172 - First Product present

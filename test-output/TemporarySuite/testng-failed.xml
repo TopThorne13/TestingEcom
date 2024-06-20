@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TemporarySuite]">
+  <test name="TemporaryTest(failed)">
+    <classes>
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="testHomePageURL"/>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+          <include name="startReport"/>
+          <include name="testHomePageSocialsYouTube"/>
+          <include name="getResult"/>
+          <include name="testHomePageSocialsTwitter"/>
+          <include name="testHomePageSocialsFacebook"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
+    </classes>
+  </test> <!-- TemporaryTest(failed) -->
+</suite> <!-- Failed suite [TemporarySuite] -->
