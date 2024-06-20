@@ -26,9 +26,9 @@ public class CartTest extends Base {
 
 		homepage = new HomePage(getDriver());
 		
-		homepage.clickCartButton();
-		
 		try {
+			
+			homepage.clickCartButton();
 			
 			CartPage cartpage = new CartPage(getDriver());
 			
