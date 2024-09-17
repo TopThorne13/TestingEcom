@@ -2,9 +2,7 @@ Balpreet Singh
 balpreet.singh@nagarro.com
 3201228
 
-This test created as an exit test for AQT Training.
-
-Following were the requirement:
+Following were the client requirements for Testing an Ecom website:
 
 1.	Use the site: - https://www.flipkart.com/ to automate.
 2.	Create at least 20 automated Test Case across different flows and screens.
